@@ -41,5 +41,10 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  {"engines": {
+  "node": ">=0.12"
   }
+}
+  
 }
