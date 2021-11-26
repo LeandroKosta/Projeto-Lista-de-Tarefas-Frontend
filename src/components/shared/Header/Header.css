@@ -1,0 +1,26 @@
+.menu {
+  background-color: aquamarine;
+  color: rgb(177, 171, 171);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin: auto;
+}
+
+li {  
+  padding: 0 2rem;
+  list-style: none;  
+  margin: auto;
+  color: black;
+  font-size: larger;
+  font-weight: 500; 
+  cursor: pointer;    
+}
