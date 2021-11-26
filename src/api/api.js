@@ -1,6 +1,6 @@
 const Api = {
-  //apiUrl: "https://backend-lista-de-tarefas-lk.herokuapp.com/todolist",
-  apiUrl: "http://localhost:3002/todolist",
+  apiUrl: "https://backend-lista-de-tarefas-lk.herokuapp.com/todolist",
+  
   fetchGetAll: () => fetch(Api.apiUrl),
   fetchGetById: (id) => fetch(`${Api.apiUrl}/${id}`),
   fetchPost: (data) => {
